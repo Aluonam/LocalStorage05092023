@@ -1,3 +1,5 @@
+
+# LocalStorage05092023
 **PASOS LOCALSTORAGE**
 
 1. Crear useState para guardar datos que escribe el usuario.
@@ -35,4 +37,3 @@ const InputUsuario2 = () => {
 }
 
 export default InputUsuario2
-```
