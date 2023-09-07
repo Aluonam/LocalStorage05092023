@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import ImputUsuario from '@/components/ImputUsuario'
+import InputUsuario2 from '@/components/InputUsuario2'
 
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-       <ImputUsuario></ImputUsuario>
+       {/* <ImputUsuario></ImputUsuario> */}
+       <InputUsuario2></InputUsuario2>
       </main>
     </>
   )

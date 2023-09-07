@@ -1,3 +1,4 @@
+
 # LocalStorage05092023
 **PASOS LOCALSTORAGE**
 
@@ -36,4 +37,3 @@ const InputUsuario2 = () => {
 }
 
 export default InputUsuario2
-```
