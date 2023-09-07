@@ -9,3 +9,30 @@
 4. Creo otro useState para guardar los datos que se almacenan en local
 
 5. La funcion del botón irá en la parte lógica y tendrá localStorage.setItem("clave", "valor");
+
+```javascript
+import React, { useState } from 'react'
+
+const InputUsuario2 = () => {
+
+    const [datosUsuario, setDatosUsuario] = useState()
+
+    const [datosGuardarEnLocal, setDatosGuardarEnLocal] = useState()
+    
+    const handleSaveData = () => {
+        setDatosGuardarEnLocal(localStorage.setItem("name:", datosUsuario))
+    }
+
+  return (
+    <>
+    <div>InputUsuario2</div>
+    {/* {datosUsuario} */}
+    {/* {datosGuardarEnLocal} */}
+    <input onChange={(e)=>{setDatosUsuario(e.target.value)}}></input>
+    <button onClick={()=>{handleSaveData()}}>Guardar inicio de sesión</button>
+    </>
+  )
+}
+
+export default InputUsuario2
+```
